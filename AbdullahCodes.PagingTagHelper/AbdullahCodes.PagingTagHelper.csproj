@@ -17,6 +17,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>    
     <RepositoryUrl></RepositoryUrl>    
     <PackageIcon>icon.png</PackageIcon>    
+    <Copyright>Copyright (c) 2020 Abdullah Hashim</Copyright>    
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
