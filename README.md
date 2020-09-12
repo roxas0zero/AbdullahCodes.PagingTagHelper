@@ -1,24 +1,24 @@
 # AbdullahCodes.PagingTagHelper
 A simple Asp.Net Core paging tag helper that supports adding custom Url values, styled with Bootstrap 4 and is very easy to use.
 
-# Prerequisites
+## Prerequisites
 Make sure you have installed Bootstrap 4
 
-# Install
+## Install
 Use the following command to install the nuget package:
 ```cmd
 PM> Install-Package AbdullahCodes.PagingTagHelper
 ```
 
-# Setup
+## Setup
 Add the following code to _ViewImports.cshtml:
 ```razor
 @addTagHelper *, AbdullahCodes.PagingTagHelper
 ```
 
-# Usage
+## Usage
 
-## Controller
+### Controller
 First specify the page size which represents the number of records that should be displayed in one page.<br>
 Then, retrieve the data from the database using the Skip and Take methods to retrieve only the current page data.<br>
 And lastly retrieve the total number of records as shown below:
@@ -43,7 +43,7 @@ public IActionResult Index(int page = 1)
 }
 ```
 
-## View
+### View
 Create a paging tag in your view and pass the paging data that we calculated earlier in the controller as shown below:
 ````html
 <paging page-number="Model.PageNumber" 
@@ -52,9 +52,9 @@ Create a paging tag in your view and pass the paging data that we calculated ear
 </paging>
 ````
 
-# Optional
+## Optional
 
-## Page Action
+### Page Action
 You can specify if you want the page links to point to a different action.<br>
 (If it is unspecified it will point to the same page)
 ````html
@@ -65,8 +65,7 @@ You can specify if you want the page links to point to a different action.<br>
 </paging>
 ````
 
-
-## Align Center
+### Align Center
 You can specify if you want it to be aligned in center or not.<br>
 (Default value is true)
 ````html
@@ -77,7 +76,7 @@ You can specify if you want it to be aligned in center or not.<br>
 </paging>
 ````
 
-## Max Displayed Pages
+### Max Displayed Pages
 You can specify how many pages you want to be displayed at once.<br>
 (Default value is 10)
 ````html
@@ -88,7 +87,7 @@ You can specify how many pages you want to be displayed at once.<br>
 </paging>
 ````
 
-## Additional Url Values
+### Additional Url Values
 You can specify if you want to send additional Url values (Url query)<br>
 (Add page-url-<name of value> and it will be sent to the action as a route value)
 ````html
