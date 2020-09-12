@@ -1,6 +1,8 @@
 # AbdullahCodes.PagingTagHelper
 A simple Asp.Net Core paging tag helper that supports adding custom Url values, styled with Bootstrap 4 and is very easy to use.
 
+![image](https://user-images.githubusercontent.com/6898829/92983625-3ee5f980-f4ad-11ea-8f57-611579f779a8.png)
+
 ## Prerequisites
 Make sure you have installed Bootstrap 4
 
@@ -75,6 +77,11 @@ You can specify if you want it to be aligned in center or not.<br>
         align-center="false">
 </paging>
 ````
+Not centered
+![image](https://user-images.githubusercontent.com/6898829/92983659-84a2c200-f4ad-11ea-8200-916555c66489.png)
+
+Centered
+![image](https://user-images.githubusercontent.com/6898829/92983792-3c37d400-f4ae-11ea-90c3-0dbfbce92a5d.png)
 
 ### Max Displayed Pages
 You can specify how many pages you want to be displayed at once.<br>
@@ -86,6 +93,8 @@ You can specify how many pages you want to be displayed at once.<br>
         max-displayed-pages="5">
 </paging>
 ````
+
+![image](https://user-images.githubusercontent.com/6898829/92983697-b9167e00-f4ad-11ea-9b56-94a4172f0d74.png)
 
 ### Additional Url Values
 You can specify if you want to send additional Url values (Url query)<br>
