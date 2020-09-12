@@ -1,4 +1,6 @@
 # AbdullahCodes.PagingTagHelper
+[![](https://img.shields.io/nuget/v/AbdullahCodes.PagingTagHelper.svg)](https://www.nuget.org/packages/AbdullahCodes.PagingTagHelper)
+
 A simple Asp.Net Core paging tag helper that supports adding custom Url values, styled with Bootstrap 4 and is very easy to use.
 
 ![image](https://user-images.githubusercontent.com/6898829/92983625-3ee5f980-f4ad-11ea-8f57-611579f779a8.png)
@@ -6,7 +8,7 @@ A simple Asp.Net Core paging tag helper that supports adding custom Url values, 
 ## Prerequisites
 Make sure you have installed Bootstrap 4
 
-## Install
+## Installation
 Use the following command to install the nuget package:
 ```cmd
 PM> Install-Package AbdullahCodes.PagingTagHelper
