@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>    
+    <TargetFrameworks>netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <Title>AbdullahCodes.PagingTagHelper</Title>
     <Authors>Abdullah Hashim</Authors>
     <Company>AbdullahCodes</Company>
-    <Description>A simple Asp.Net Core paging tag helper that supports adding custom Url values and is very easy to use.</Description>        
+    <Description>A simple Asp.Net Core paging tag helper that supports adding custom Url values, styled with Bootstrap 4 and is very easy to use.</Description>        
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageTags>asp.net, core, razor, mvc, taghelpers, taghelper, tag, helper, pagination, paging, pager</PackageTags>
     <PackageReleaseNotes>
@@ -15,9 +16,12 @@
     <FileVersion>1.0.0</FileVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>    
-    <RepositoryUrl></RepositoryUrl>    
+    <RepositoryUrl>https://github.com/roxas0zero/AbdullahCodes.PagingTagHelper</RepositoryUrl>    
     <PackageIcon>icon.png</PackageIcon>    
     <Copyright>Copyright (c) 2020 Abdullah Hashim</Copyright>    
+    <RepositoryType></RepositoryType>    
+    <PackageProjectUrl>https://github.com/roxas0zero/AbdullahCodes.PagingTagHelper</PackageProjectUrl>    
+    <NeutralLanguage></NeutralLanguage>    
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
