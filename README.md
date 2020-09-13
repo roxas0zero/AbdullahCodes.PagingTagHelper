@@ -1,5 +1,6 @@
 # AbdullahCodes.PagingTagHelper
 [![](https://img.shields.io/nuget/v/AbdullahCodes.PagingTagHelper.svg)](https://www.nuget.org/packages/AbdullahCodes.PagingTagHelper)
+[![](https://img.shields.io/nuget/dt/AbdullahCodes.PagingTagHelper.svg)](https://www.nuget.org/packages/AbdullahCodes.PagingTagHelper)
 
 A simple Asp.Net Core paging tag helper that supports adding custom Url values, styled with Bootstrap 4 and is very easy to use.
 
