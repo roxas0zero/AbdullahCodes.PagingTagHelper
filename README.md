@@ -2,7 +2,13 @@
 [![](https://img.shields.io/nuget/v/AbdullahCodes.PagingTagHelper.svg)](https://www.nuget.org/packages/AbdullahCodes.PagingTagHelper)
 [![](https://img.shields.io/nuget/dt/AbdullahCodes.PagingTagHelper.svg)](https://www.nuget.org/packages/AbdullahCodes.PagingTagHelper)
 
-A simple Asp.Net Core paging tag helper that supports adding custom Url values, styled with Bootstrap 4 and is very easy to use.
+A simple Asp.Net Core paging tag helper that supports adding custom Url values, styled with Bootstrap 4 and is very easy to use.<br><br>
+Compatible with:
+- ASP.NET CORE 2.0
+- ASP.NET CORE 2.1
+- ASP.NET CORE 2.2
+- ASP.NET CORE 3.0
+- ASP.NET CORE 3.1
 
 ![image](https://user-images.githubusercontent.com/6898829/92983625-3ee5f980-f4ad-11ea-8f57-611579f779a8.png)
 
