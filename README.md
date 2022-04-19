@@ -92,6 +92,19 @@ Not centered
 Centered
 ![image](https://user-images.githubusercontent.com/6898829/92983792-3c37d400-f4ae-11ea-90c3-0dbfbce92a5d.png)
 
+### Responsive
+You can specify if you want it to be responsive or not.<br>
+(Default value is true)
+````html
+<paging page-number="Model.PageNumber" 
+        page-size="Model.PageSize"
+        total-records="Model.TotalRecords"
+        responsive="false">
+</paging>
+````
+Responsive
+![image](https://user-images.githubusercontent.com/6898829/163982403-11282011-6bd7-4423-b1dd-cf12fafe0804.png)
+
 ### Max Displayed Pages
 You can specify how many pages you want to be displayed at once.<br>
 (Default value is 10)
