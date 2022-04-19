@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <Title>AbdullahCodes.PagingTagHelper</Title>
     <Authors>Abdullah Hashim</Authors>
     <Company>AbdullahCodes</Company>
@@ -11,44 +11,27 @@
     <PackageReleaseNotes>
       - Initial release
     </PackageReleaseNotes>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <Version>1.1.0</Version>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>    
     <RepositoryUrl>https://github.com/roxas0zero/AbdullahCodes.PagingTagHelper</RepositoryUrl>    
     <PackageIcon>icon.png</PackageIcon>    
-    <Copyright>Copyright (c) 2020 Abdullah Hashim</Copyright>    
+    <Copyright>Copyright (c) 2022 Abdullah Hashim</Copyright>    
     <RepositoryType></RepositoryType>    
     <PackageProjectUrl>https://github.com/roxas0zero/AbdullahCodes.PagingTagHelper</PackageProjectUrl>    
     <NeutralLanguage></NeutralLanguage>    
   </PropertyGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.0.0" Exclude="build,analyzers" />    
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1'">
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.1.0" Exclude="build,analyzers" />    
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.2'">
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" Exclude="build,analyzers" />    
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.0'">
-    <FrameworkReference Include="Microsoft.AspNetCore.App" Version="3.0.0" Exclude="Build,Analyzers" />
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
-    <FrameworkReference Include="Microsoft.AspNetCore.App" Version="3.1.0" Exclude="Build,Analyzers" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
   </ItemGroup>
 
 </Project>
