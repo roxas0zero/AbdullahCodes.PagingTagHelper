@@ -97,7 +97,7 @@ You can specify if you want it to be responsive or not.<br>
         responsive="false">
 </paging>
 ````
-Responsive
+
 ![image](https://user-images.githubusercontent.com/6898829/163982403-11282011-6bd7-4423-b1dd-cf12fafe0804.png)
 
 ### Max Displayed Pages
