@@ -29,6 +29,7 @@ namespace AbdullahCodes.PagingTagHelper
         public int TotalRecords { get; set; }
         public bool AlignCenter { get; set; } = true;
         public int MaxDisplayedPages { get; set; } = 10;
+        public bool Responsive { get; set; } = true;
         [HtmlAttributeName(DictionaryAttributePrefix = "page-url-")]
         public Dictionary<string, object> PageUrlValues { get; set; }
             = new Dictionary<string, object>();
@@ -45,6 +46,11 @@ namespace AbdullahCodes.PagingTagHelper
                 if (AlignCenter)
                 {
                     pagingTag.AddCssClass("justify-content-center");
+                }
+
+                if (Responsive)
+                {
+                    pagingTag.AddCssClass("d-flex flex-wrap");
                 }
 
                 var prevPageNumber = PageNumber - 1 <= 1 ? 1 : PageNumber - 1;
